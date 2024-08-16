@@ -1,0 +1,11 @@
+Install postgresql
+sudo apt install postgresql -f
+
+sudo -u postgres psql
+sudo ufw allow 5432/tcp
+/etc/postgresql/12/main/pg_hba.conf
+
+sudo chmod a+x /usr/local/bin/rmate
+
+To edit startup script
+ vi ~/.config/autostart/chromium-browser.desktop

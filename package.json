@@ -1,0 +1,21 @@
+{
+  "name": "dynamicdropdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "finnhub": "^1.2.16",
+    "pg": "^8.9.0",
+    "yahoo-finance2": "^2.11.3",
+    "yahoo-stock-api": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
